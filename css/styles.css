@@ -1,0 +1,113 @@
+body {
+  font-family: "calibri";
+  text-align: center;
+
+}
+
+li, img, .button {
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -o-transition: all 300ms;
+}
+
+header {
+  width: 100%;
+  height: 65px;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  /* z-index: xxx; */
+}
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+/* this is for ul tag (menu) */
+.menu {
+  float: right;
+}
+
+header li {
+  float: left;
+  width: 120px;
+  height: 63.5px;
+  line-height: 65px;
+  text-align: center;
+  list-style: none;
+}
+
+
+.menu li a {
+  color: #111111;
+  text-align: left; /* whats acc written in the menu */
+  text-decoration: none;
+  display: block;
+  font-family: "Alegreya";
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.menu li a:hover { /* what happens to the writing when u hover */
+  color: grey;
+  font-size: 25px;
+}
+
+.menu .current {
+  font-size: 25px;
+  color: grey;
+}
+/* HOME*********************************/
+
+#home h1 {
+  margin: 5px auto 0 auto;
+  font-size: 45px;
+  text-align: left;
+  color: black;
+  font-family: "Alegreya";
+}
+
+#home img {
+  background: url('..images/mecca.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 95%;
+}
+
+/* ABOUT**********************************/
+
+#about h1{
+  color: #111111;
+  margin: 5px auto 0 auto;
+  font-family: "Alegreya";
+  position: absolute;
+  text-align: left;
+}
+
+#about h2 {
+  color: grey;
+  font-family: "Alegreya";
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+#about p {
+  font-size: 20px;
+  font-family: "Alegreya";
+
+}
+
+/* REFERENCES******************************/
+
+#references h1 {
+  margin: 60px auto 0 auto;
+  color: black;
+  font-family: "Alegreya";
+
+}
