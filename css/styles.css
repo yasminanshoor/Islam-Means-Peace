@@ -1,7 +1,6 @@
 body {
   font-family: "calibri";
   text-align: center;
-
 }
 
 li, img, .button {
@@ -10,14 +9,16 @@ li, img, .button {
   -o-transition: all 300ms;
 }
 
+#home {
+  background-color: #ffffff;
+}
+
 header {
   width: 100%;
   height: 65px;
-  position: fixed;
   float: left;
   top: 0;
   left: 0;
-  background: rgba(255, 255, 255, 0.5);
   /* z-index: xxx; */
 }
 
@@ -54,60 +55,155 @@ header li {
 }
 
 .menu li a:hover { /* what happens to the writing when u hover */
-  color: grey;
+  color: #A5A7F8;
   font-size: 25px;
 }
 
 .menu .current {
   font-size: 25px;
-  color: grey;
+  color: #A5A7F8;
 }
 /* HOME*********************************/
 
+
 #home h1 {
   margin: 5px auto 0 auto;
+  position: absolute;
   font-size: 45px;
   text-align: left;
-  color: black;
+  color: #A5A7F8;
   font-family: "Alegreya";
 }
 
 #home img {
-  background: url('..images/mecca.jpeg');
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 95%;
+  display: run-in;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100px;
+  height: 460px;
 }
 
+#home p {
+  font-size: 25px;
+  font-family: "Alegreya";
+
+}
+
+/* FOOTER*********************************/
+
+#home .fa { /*this is everything to do with the social media icons*/
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 30px;
+  width: 100px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#home .fa-facebook:hover {
+  color: #3B5998;
+  text-decoration: none;
+
+}
+
+#home .fa-twitter:hover {
+  color: #00ABE3;
+  text-decoration: none;
+}
+
+#home .fa-instagram:hover {
+  color: #dd3e7b;
+  text-decoration: none;
+
+}
 /* ABOUT**********************************/
 
 #about h1{
-  color: #111111;
-  margin: 5px auto 0 auto;
+  color: #A5A7F8;
+  margin: 10px auto 0 10px;
   font-family: "Alegreya";
   position: absolute;
   text-align: left;
+  font-weight: bold;
+}
+
+#about img {
+  display: run-in;
+  margin: 0 auto;
+  padding: 20px;
+  position: absolute;
+  left: 500px;
+  top: 730px;
+  border-radius: 100px;
+  height: 300px;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 #about h2 {
-  color: grey;
+  color: #111111;
   font-family: "Alegreya";
   font-weight: bold;
   font-size: 25px;
+  text-decoration: underline;
 
 }
 
 #about p {
   font-size: 20px;
+  font-family: "Source Sans Pro";
+
+}
+
+#about ol{
+  max-width:40%;
+  margin: auto 100px auto 430px;
+  text-align:left;
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+}
+
+#about h3 {
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
   font-family: "Alegreya";
 
 }
 
+#about h4 {
+  color: #A5A7F8;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Alegreya";
+  text-align: left;
+}
+
+#about h5{
+  font-size: 20px;
+  font-family: "Source Sans Pro";
+  text-align: left;
+  line-height: 27px;
+
+}
 /* REFERENCES******************************/
 
 #references h1 {
-  margin: 60px auto 0 auto;
+  margin: 0px auto 0 auto;
   color: black;
   font-family: "Alegreya";
+
+}
+
+#references ul {
+  color: black;
+  font-family: "Source Sans Pro";
+  max-width:100%;
+  margin: auto 430px auto 0px;
+  text-align:left;
+  font-size: 20px;
 
 }
