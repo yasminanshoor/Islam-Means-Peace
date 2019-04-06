@@ -135,12 +135,12 @@ header li {
   margin: 0 auto;
   padding: 20px;
   position: absolute;
-  left: 400px;
-  top: 680px;
-  border-radius: 50px;
+  left: 800px;
+  top: 740px;
+  border-radius: 30px;
   height: 400px;
   z-index: -1;
-  opacity: 0.35;
+  opacity: 0.75;
 }
 
 #about img:nth-of-type(2) {
@@ -148,12 +148,12 @@ header li {
   margin: 0 auto;
   padding: 20px;
   position: absolute;
-  left: 400px;
-  top: 1100px;
-  border-radius: 50px;
+  left: 800px;
+  top: 1250px;
+  border-radius: 30px;
   height: 400px;
   z-index: -1;
-  opacity: 0.35;
+  opacity: 0.75;
 }
 
 #about h2 {
@@ -207,6 +207,12 @@ header li {
   text-align: left;
   line-height: 27px;
 
+}
+
+#about ul {
+  max-width: 60%;
+  margin: auto 500px auto 0px;
+  text-align:left;
 }
 /* REFERENCES******************************/
 
