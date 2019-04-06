@@ -55,13 +55,13 @@ header li {
 }
 
 .menu li a:hover { /* what happens to the writing when u hover */
-  color: #A5A7F8;
+  color: #8394DA;
   font-size: 25px;
 }
 
 .menu .current {
   font-size: 25px;
-  color: #A5A7F8;
+  color: #8394DA;
 }
 /* HOME*********************************/
 
@@ -78,7 +78,7 @@ header li {
   position: absolute;
   font-size: 45px;
   text-align: left;
-  color: #A5A7F8;
+  color: #8394DA;
   font-family: "Alegreya";
 }
 
@@ -144,9 +144,9 @@ header li {
   padding: 20px;
   position: absolute;
   left: 800px;
-  top: 770px;
+  top: 790px;
   border-radius: 25px;
-  height: 370px;
+  height: 360px;
   width: 500px;
   z-index: -1;
   opacity: 0.75;
@@ -158,9 +158,9 @@ header li {
   padding: 20px;
   position: absolute;
   left: 800px;
-  top: 1250px;
+  top: 1200px;
   border-radius: 25px;
-  height: 400px;
+  height: 450px;
   z-index: -1;
   opacity: 0.75;
 }
@@ -203,7 +203,7 @@ header li {
 }
 
 #about h4 {
-  color: #A5A7F8;
+  color: #8394DA;
   font-weight: bold;
   font-size: 25px;
   font-family: "Alegreya";
@@ -239,5 +239,7 @@ header li {
   margin: auto 430px auto 0px;
   text-align:left;
   font-size: 20px;
+  line-height: 40px;
+
 
 }
