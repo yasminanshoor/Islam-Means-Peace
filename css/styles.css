@@ -65,6 +65,13 @@ header li {
 }
 /* HOME*********************************/
 
+#home {
+  background: url('../images/sky.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  height: 700px;
+}
 
 #home h1 {
   margin: 5px auto 0 auto;
@@ -121,6 +128,7 @@ header li {
 }
 /* ABOUT**********************************/
 
+
 #about h1{
   color: #A5A7F8;
   margin: 10px auto 0 10px;
@@ -136,9 +144,10 @@ header li {
   padding: 20px;
   position: absolute;
   left: 800px;
-  top: 740px;
-  border-radius: 30px;
-  height: 400px;
+  top: 770px;
+  border-radius: 25px;
+  height: 370px;
+  width: 500px;
   z-index: -1;
   opacity: 0.75;
 }
@@ -150,7 +159,7 @@ header li {
   position: absolute;
   left: 800px;
   top: 1250px;
-  border-radius: 30px;
+  border-radius: 25px;
   height: 400px;
   z-index: -1;
   opacity: 0.75;
@@ -167,7 +176,7 @@ header li {
 
 #about p {
   font-size: 20px;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya";
 
 }
 
@@ -182,7 +191,7 @@ header li {
   margin: auto 100px auto 430px;
   text-align:left;
   font-size: 20px;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya";
 }
 
 #about h3 {
@@ -203,14 +212,14 @@ header li {
 
 #about h5{
   font-size: 20px;
-  font-family: "Source Sans Pro";
+  font-family: "alegreya";
   text-align: left;
   line-height: 27px;
 
 }
 
 #about ul {
-  max-width: 60%;
+  max-width: 57%;
   margin: auto 500px auto 0px;
   text-align:left;
 }
@@ -225,7 +234,7 @@ header li {
 
 #references ul {
   color: black;
-  font-family: "Source Sans Pro";
+  font-family: "Alegreya";
   max-width:100%;
   margin: auto 430px auto 0px;
   text-align:left;
